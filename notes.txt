@@ -1,0 +1,1 @@
+untuk background detail tgl,tinggal memasukkan image ke folder image dan direname "imageDt--" -- sesuai angka 1-29
