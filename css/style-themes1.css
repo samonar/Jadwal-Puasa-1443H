@@ -1,0 +1,545 @@
+@font-face {
+    font-family: helvetica;
+    src: url(../fonts/font-Helvetica.ttf) format("woff"), url(../fonts/font-Helvetica.ttf) format("opentype"), url(../fonts/font-Helvetica.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: helvetica-bold;
+    src: url(../fonts/font-Helvetica-Bold-Font.ttf) format("woff"), url(../fonts/font-Helvetica-Bold-Font.ttf) format("opentype"), url(../fonts/font-Helvetica-Bold-Font.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: adinda;
+    src: url(../fonts/Adinda.ttf) format("woff"), url(../fonts/Adinda.ttf) format("opentype"), url(../fonts/Adinda.ttf) format("truetype")
+}
+
+@font-face {
+    font-family: papernotes;
+    src: url(../fonts/Papernotes.ttf) format("woff"), url(../fonts/Papernotes.ttf) format("opentype"), url(../fonts/Papernotes.ttf) format("truetype")
+}
+
+.helvetica-bold {
+    font-family: helvetica-bold
+}
+
+strong {
+    font-family: helvetica-bold;
+    color: rgb(255, 255, 255);
+    font-smooth: always;
+    font-smooth: 2em
+}
+
+.pb-3 {
+    padding-bottom: 10px;
+}
+
+.xbold {
+    font-weight: 700;
+    color: #000;
+    font-size: 12px
+}
+
+* {
+    font-family: helvetica
+}
+
+a {
+    color: #000;
+    text-decoration: solid
+}
+
+body,
+.popup {
+    background: url(../images/Ramadan-Web-Banner.jpg);
+    background-size: cover;
+    position: relative
+}
+
+.bubblesArea {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0
+}
+
+h4 {
+    font-family: helvetica;
+    font-size: 16px;
+    margin: 0;
+    letter-spacing: 0;
+    color: #000;
+    /* text-shadow: 1px 1px 1px #ccc */
+}
+
+.fancybox-content {
+    width: 100%;
+    max-width: 1200px
+}
+
+h1 {
+    font-family: helvetica;
+    color: #000;
+    font-size: 40px;
+    /* text-shadow: 1px 1px 1px #ccc */
+}
+
+.wrapper {
+    max-width: 1366px;
+    margin: 10px auto;
+    position: relative
+}
+
+.wrapper .awan1 {
+    position: absolute;
+    top: -183px;
+    width: 105px;
+    left: 25%
+}
+
+.wrapper .awan2 {
+    position: absolute;
+    top: -367px;
+    width: 77px;
+    left: 34%
+}
+
+.iconDate {
+    line-height: 100%;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #fff
+}
+
+small {
+    font-size: 12px
+}
+
+.iconDate small,
+.iconDate div {}
+
+.iconDate small {
+    font-size: 8px;
+    padding: 0;
+    margin: 0
+}
+
+.number {
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 72% !important;
+    padding-bottom: 0;
+    margin-bottom: 0
+}
+
+.iconDate a {
+    color: #fff
+}
+
+.date22 {
+    position: relative
+}
+
+.date22 .date22-text {
+    position: absolute;
+    z-index: 99;
+    top: 108px;
+    left: 0;
+    width: 100%
+}
+
+.display-x {
+    font-family: helvetica;
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+    line-height: 100%;
+    color: #1e4195
+}
+
+@media(max-width:575.98px) {
+    .display-x {
+        font-family: helvetica;
+        font-size: 90px
+    }
+}
+
+.bg-primary {
+    background: #1e4195 !important;
+}
+
+.text-primary {
+    color: #E9804F !important;
+}
+
+.text-white {
+    color: #ededed !important;
+}
+
+.text-white1 {
+    color: #e0e0e0 !important;
+}
+
+.text-orange {
+    color: #E85D04 !important;
+}
+
+.bg-warning {
+    background: linear-gradient(135deg, #f5af19 0%, #f12711 100%);
+}
+
+.coverArea {
+    position: relative;
+    min-height: 300px
+}
+
+.coverArea .coverTop {
+    right: 0;
+    top: 0;
+    z-index: -10
+}
+
+.content-area {
+    position: relative
+}
+
+.bgn2Popup {
+    background: rgba(255, 255, 255, .3)
+}
+
+.bgn2PopupAbs {
+    background: rgba(255, 255, 255, .3);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 177px;
+    width: 100%;
+    z-index: 0
+}
+
+div .todayday {
+    font-family: helvetica-bold;
+    font-size: 13px;
+    line-height: 120%;
+    text-transform: uppercase
+}
+
+@media(max-width:575.98px) {
+    .todayday {
+        font-size: 14px
+    }
+    .c02 {
+        display: block
+    }
+}
+
+.c05 {
+    position: relative;
+    min-height: 170px
+}
+
+.c05 .ayat {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+
+.ayat {
+    color: #000;
+    line-height: 120%
+}
+
+.ayat p {
+    font-size: 14px;
+    /* text-shadow: 1px 1px 1px #ccc; */
+    font-family: helvetica-bold;
+    color: #ededed;
+    margin: 5px;
+    line-height: 110%
+}
+
+.ayat .hc1 {
+    color: #1d4094;
+    font-size: 20px;
+    font-family: helvetica-bold
+}
+
+.notes3 {
+    text-align: right;
+    max-width: 500px
+}
+
+.popup .addresSosmed {
+    position: absolute;
+    bottom: 0px;
+    width: 480px;
+}
+
+.bgn2 {
+    background: rgba(255, 255, 255, .3);
+    height: 169px;
+    left: 0;
+    width: 100%;
+    bottom: -10px;
+    position: absolute;
+    z-index: -11
+}
+
+@media(min-width:1340px) {
+    .bgn2 {
+        height: 394px;
+        bottom: -217px
+    }
+}
+
+.sosmet {
+    max-width: 595px;
+    margin: 0 auto
+}
+
+.sosmet small {
+    font-size: 11px
+}
+
+.sosmet div {
+    line-height: 80%
+}
+
+.c01 {
+    position: relative
+}
+
+.c01 .c01-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+
+.gobel {
+    z-index: 999
+}
+
+@media(max-width:575.98px) {
+    .fancybox-content {
+        padding: 0
+    }
+    .bgn2 {
+        height: 143px;
+        bottom: -11px
+    }
+    .wrapperPopup {
+        width: 100%
+    }
+    .wrapper .awan1 {
+        top: -66px;
+        width: 63px;
+        left: 202px
+    }
+    .wrapper .awan2 {
+        top: -66px;
+        width: 41px;
+        left: 277px
+    }
+    .wrapper .bgn2 {
+        background: rgba(255, 255, 255, .3);
+        height: 132px;
+        left: 0;
+        width: 100%;
+        bottom: -10px;
+        position: absolute;
+        z-index: -11
+    }
+    .sosmet {
+        width: 100%;
+        margin: 0 auto
+    }
+    .sosmet small {}
+}
+
+.wrapperPopup {
+    padding: 10px;
+    position: relative
+}
+
+.wrapperPopup .popupPanasonic {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30%;
+    height: auto
+}
+
+.wrapperPopup .popupAwan1 {
+    position: absolute;
+    left: 3px;
+    top: 40px;
+    width: 166px;
+    z-index: 0
+}
+
+.wrapperPopup .popupAwan2 {
+    position: absolute;
+    right: 40%;
+    top: 0;
+    width: 188px;
+    z-index: 0
+}
+
+@media(max-width:575.98px) {
+    .wrapperPopup .popupAwan2 {
+        position: absolute;
+        right: 0;
+        top: 5px;
+        width: 160px;
+        z-index: 0
+    }
+}
+
+.popupImages {
+    position: relative;
+    z-index: 10;
+    margin-top: 63px
+}
+
+.popupImages .popupProducts {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%
+}
+
+.popupImages .popupProductsCenter {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 100%
+}
+
+.popupImages .popupProducts .popupProductsNames {
+    position: absolute;
+    bottom: -24px;
+    text-align: center;
+    right: 0;
+    width: 100%;
+    line-height: 110%;
+    font-size: 12px;
+    color: #000
+}
+
+.P01442 {
+    position: absolute;
+    width: 100%;
+    bottom: 18px;
+    left: 0
+}
+
+.p12013 {
+    display: inline-block;
+    margin: 0 auto
+}
+
+.imagesKV {
+    width: 70%
+}
+
+@media(max-width:575.98px) {
+    .popupImages .popupProducts .popupProductsNames {
+        bottom: -30px
+    }
+    .imagesKV {
+        width: 93%
+    }
+    .P01442 {
+        bottom: 0
+    }
+    .sm001 {
+        font-size: 14px
+    }
+    .center001 {
+        text-align: center
+    }
+    .p124 {
+        display: inline-block;
+        margin: 0 auto
+    }
+}
+
+.table-jam {
+    width: 100%
+}
+
+.table-jam tr td {
+    padding: 3px 10px;
+    text-align: center;
+    font-smooth: always;
+    font-smooth: 2em
+}
+
+.table-jam-pc tr td {
+    padding: 5px 1px !important;
+    text-align: center
+}
+
+.table-jam .hh {
+    background: #E85D04;
+    color: #fff;
+    font-family: helvetica;
+    padding: 3px 6px
+}
+
+.table-jam .ii {
+    background: #fff;
+    color: #1d4094;
+    font-family: helvetica;
+    padding: 3px 7px
+}
+
+.text-danger {
+    color: #a50505 !important
+}
+
+.bg-danger {
+    background: #a50505 !important
+}
+
+.table-jam .alpha td {
+    padding-bottom: 5px !important;
+    padding-top: 0 !important;
+    letter-spacing: 1px;
+    letter-spacing: .3px;
+    font-size: 14px;
+    font-family: helvetica
+}
+
+.popup-vector-area {
+    position: relative
+}
+
+.popup-vector-area .popup-vector {
+    position: absolute;
+    width: 207%;
+    right: -53px;
+    top: -72px
+}
+
+.popupsosmetPC {
+    width: 50%;
+    position: absolute;
+    bottom: -33px;
+    right: 0;
+    zoom: 80%
+}
+
+.table-jam .omega td {
+    padding-bottom: 0 !important
+}
+
+@media(max-width:575.98px) {
+    .table-jam {
+        width: 100%;
+        zoom: 93%
+    }
+}

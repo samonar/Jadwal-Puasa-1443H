@@ -1,0 +1,29 @@
+.anim-pendulum  {
+
+    -webkit-animation-name: rotate;
+    animation-delay: 3s;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-transform-origin: 50% 0%;
+    -webkit-animation-timing-function: linear;
+    /* or make your custom easing */
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    25% {
+        -webkit-transform: rotate(4deg);
+    }
+
+    75% {
+        -webkit-transform: rotate(-4deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0deg);
+    }
+}
